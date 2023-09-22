@@ -3,7 +3,19 @@
 Sentiment analysis of tweets is a natural language processing (NLP) technique used to determine the sentiment or emotional tone expressed in tweets or other text data. It involves analyzing text to understand whether the sentiment behind it is positive, negative, or neutral. This analysis can provide valuable insights into public opinion, brand perception, and trends on social media platforms like Twitter. Here's a description of how sentiment analysis of tweets works:
 
 # Naive Bayes
-# NLP
+
+**Probabilistic Classification**: Naive Bayes is primarily used for classification tasks, where the goal is to assign a label or category to a given input based on its features or attributes.
+
+**Bayes' Theorem**: The algorithm is named after Thomas Bayes and is based on Bayes' theorem, which describes how to update the probability for a hypothesis as more evidence or information becomes available.
+
+**Naive Assumption**: The "naive" in Naive Bayes refers to a simplifying assumption that the algorithm makes. It assumes that the features used for classification are conditionally independent, meaning that the presence or absence of one feature does not affect the presence or absence of another. This assumption simplifies the calculation of probabilities.
+
+**Multinomial and Gaussian Variants**: Naive Bayes can be adapted to different types of data. The two most common variants are Multinomial Naive Bayes, which is suitable for discrete data (e.g., text data with word counts), and Gaussian Naive Bayes, which is used for continuous data that follows a Gaussian (normal) distribution.
+
+**Feature Vector**: In classification tasks, the input data is typically represented as a feature vector, where each feature corresponds to a specific attribute or characteristic of the input.
+
+**Probability Calculation**: Naive Bayes calculates the probability of an input belonging to each class or category based on the observed features. It assigns the input to the class with the highest probability.
+
 
 1. **Data Collection:** The first step in sentiment analysis is to collect a dataset of tweets. This dataset can be gathered using Twitter APIs, web scraping tools, or by using pre-existing datasets. Depending on the research or application, you may collect tweets related to specific topics, hashtags, or from specific users.
 
